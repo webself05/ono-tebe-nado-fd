@@ -1,1 +1,221 @@
-/* место для вашего кода */
+body{
+    background-color: #FFFFFF;
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    grid-template-rows: 293px;
+    align-items: center;
+
+    font-family: Raleway;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+}
+.header__menu{
+    display: flex;
+    list-style: circle;
+    padding: 132px 0 138px;
+}
+
+.header__links-list{ /* список ссылок */
+
+}
+.header__links-list-item{ /* каждый пункт в списке */
+    margin-left: 28.2px;
+    padding-left: 3px;
+    text-underline-offset: 4px;
+}
+.header__links-list-item_no-bullit{ /*ссылка без кружочка*/
+        padding-left: 50px;
+        list-style-type: none;
+}
+.header__link{ /*каждая ссылка в списке*/
+}
+.header__link_active{ /*выбраная активная ссылка без подчеркивания*/
+
+} 
+.header__link__prosmotr{
+    padding-left: 0.6px;
+}
+.header__link__ob_auction{
+    margin-left: -6px;
+    padding-left: 10px;
+}
+
+.header__logo {
+    display: block;
+    width: 148px;
+    height: 105px;
+    margin-left: 4px;
+    margin-bottom: 3px;
+}
+.header__logo-image{ /*картинка с лого*/
+
+}
+ address {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-self: end;
+   
+}
+.header__address{
+    margin-right: 50px;
+    margin-top: 95px;
+    margin-bottom: 100px;
+    margin-left: 185px;
+    text-underline-offset: 4px;
+    line-height: 1.36;
+}
+
+.cover {
+    min-height: 757px;
+    position: relative;
+    background-color: #000000;
+    z-index: 0;
+    overflow: hidden;
+}
+.cover__div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+.cover__div__img{
+    position: absolute;
+    top: 1px;
+    right: 2px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+h1{
+    font-family: Raleway;
+    font-weight: 700;
+    font-style: Bold;
+    font-display: swap;
+    font-size: 100px;
+    text-transform:uppercase;
+
+    color:#FFFFFF;
+    position: relative;
+    z-index: 1;
+}
+.cover__h1{
+    position: absolute;
+    top: 165px;
+    right: 50px;
+    bottom: 207px;
+    left: 50px;
+    letter-spacing: 30px;
+}
+.h1__span__ono{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 764px;
+    bottom: 477px;
+}
+.h1__span__tebe{
+    display: block;
+    position: absolute;
+    text-align: center;
+    top: 134px;
+    right: 330.5px;
+    bottom:135px;
+    left: 330.5px;
+}
+.h1__span__nado{
+    display: block;
+    position: absolute;
+    text-align: right;
+    top: 269px;
+    right: 0;
+    bottom: 0;
+    left: 614px;
+}
+.description{
+    font-family: Raleway;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+.description__p{
+    display: block;
+    position: absolute;
+    top: 669px;
+    left: 50px;
+    bottom: 61px;
+    word-spacing: 18.5px;
+}
+.description__p__span{
+    position: relative;
+    left: 1.5px;
+}
+.description__button{
+    /*appearance: none;*/
+    display: block;
+    position: absolute;
+
+    color: #FFFFFF;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+
+    font-weight: 500;
+    text-transform: uppercase;
+
+
+    min-width: 256px;
+    min-height: 51px;
+    right: 50px;
+    bottom: 50px;
+}
+.lots{
+
+}
+.lots_ul{
+
+}
+.lots_li{
+
+}
+.lots_link{
+
+}
+
+/* .about{
+   border-color: #000;
+   border-width: 1px;
+   border-style: solid;
+   !* Блок границы убрать потом *!
+   box-sizing: border-box;
+   margin: 180px 25px 0;
+/*    width: 1052px;*/
+/*    height: 595px;*/
+/*}*/
+/*.auction_column{*/
+
+/*}*/
+/*.auction_text{*/
+
+/*}*/
+
+/*footer{*/
+/*    border-color: #000;*/
+/*    border-width: 1px;*/
+/*    border-style: solid;*/
+/*    !* Блок границы убрать потом *!*/
+/*    box-sizing: border-box;*/
+/*    width: 1100px;*/
+/*    height: 180px;*/
+/*}*/
+/*.footer_links{*/
+/* } */
