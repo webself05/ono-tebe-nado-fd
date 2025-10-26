@@ -1,1 +1,314 @@
-/* место для вашего кода */
+body{
+    background-color: #FFFFFF;
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    grid-template-rows: 293px;
+    align-items: center;
+
+    font-family: Raleway;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+}
+.header__menu{
+    display: flex;
+    list-style: circle;
+    padding: 132px 0 138px;
+}
+
+.header__links-list{ /* список ссылок */
+
+}
+.header__links-list-item{ /* каждый пункт в списке */
+    margin-left: 28.2px;
+    padding-left: 3px;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+}
+.header__links-list-item_no-bullit{ /*ссылка без кружочка*/
+        padding-left: 50px;
+        list-style-type: none;
+}
+.header__link{ /*каждая ссылка в списке*/
+}
+.header__link_active{ /*выбраная активная ссылка без подчеркивания*/
+
+} 
+.header__link__prosmotr{
+    padding-left: 0.6px;
+}
+.header__link__ob_auction{
+    margin-left: -6px;
+    padding-left: 10px;
+}
+
+.header__logo {
+    display: block;
+    width: 148px;
+    height: 105px;
+    margin-left: 4px;
+    margin-bottom: 3px;
+}
+.header__logo-image{ /*картинка с лого*/
+
+}
+ address {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-self: end;
+   
+}
+.header__address{
+    margin-right: 50px;
+    margin-top: 95px;
+    margin-bottom: 100px;
+    margin-left: 185px;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4.5px;
+    line-height: 1.36;
+}
+.cover{
+    position: relative;
+    min-height: 757px;
+    
+    background-image: url('/images/cover.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cover img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.overlay{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.6);
+    z-index: 0;
+}
+
+
+h1{
+    font-family: Raleway;
+    font-weight: 700;
+    font-style: Bold;
+    font-display: swap;
+    font-size: 100px;
+    text-transform:uppercase;
+
+    color:#FFFFFF;
+    z-index: 1;
+}
+
+.aligned-text{
+    display: block;
+    position: relative;
+    top: 165px;
+    right: 50px;
+    bottom: 207px;
+    left: 50px;
+}
+.aligned-text_left{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 764px;
+    bottom: 477px;
+}
+.aligned-text_center{
+    position: absolute;
+    top: 134px;
+    right: 330.5px;
+    bottom:135px;
+    left: 330.5px;
+}
+.aligned-text_right{
+    position: absolute;
+    top: 269px;
+    right: 0;
+    bottom: 0;
+    left: 614px;
+}
+.letter-spacing-extended{
+    letter-spacing: 30px;
+}
+.no-letter-spacing{
+    letter-spacing: 0;
+}
+
+.cover__description{
+    position: relative;
+    display: block;
+    font-family: Raleway;
+    font-weight: normal;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    z-index: 1;
+
+}
+.cover__description-text{
+    position: relative;
+    top: 669px;
+    left: 50px;
+    bottom: 61px;
+    word-spacing: 18.5px;
+}
+.description__p__span{
+    position: relative;
+    left: 1px;
+}
+.bet-button{
+    position: relative;
+    color: #FFFFFF;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+
+    min-width: 256px;
+    min-height: 51px;
+    top: 630px;
+    right: 50px;
+    bottom: 50px;
+    left: 794px;
+}
+.cover__description-text__span{
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-right: 1px;
+}
+.lots{
+    margin: 180px 24px 120px;
+}
+.lots__heading{
+    margin: 0 0 27px 40px;
+    font-family: Raleway;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.lots__card-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:25px;
+    justify-content: start;
+}
+.lots__card-list-item{
+    width: 334px;
+    flex-shrink: 0;
+    min-height: 596px;
+}
+.card-link{
+    height: 100%;
+    text-decoration: none;
+    display: block;
+}
+.card{
+    position: relative;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 48px 40px;
+
+}
+.card__title{
+    position: relative;
+    z-index: 1;
+
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #FFFFFF;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 2px;
+    margin: 0;
+
+    flex-shrink: 0;;
+
+}
+.card__text{
+    position: relative;
+    z-index: 1;
+    font-family: Raleway;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin: 0;
+
+    
+    flex-shrink: 0;
+    margin-top: auto;
+}
+.card_type_film{
+    background-image: url('/images/card-lot-01.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.card_type_book{
+    background-image: url('/images/card-lot-02.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.card_type_picture{
+    background-image: url('/images/card-lot-03.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.lots__look-more-link{
+    display: block;
+    font-family: Raleway;
+    font-weight: normal;
+    font-size: 20px;
+
+    
+    text-decoration-thickness: 1px;
+    text-underline-offset: 6px;
+    margin: 30px 0 0 40px;
+}
+/* .about{
+   border-color: #000;
+   border-width: 1px;
+   border-style: solid;
+   !* Блок границы убрать потом *!
+   box-sizing: border-box;
+   margin: 180px 25px 0;
+/*    width: 1052px;*/
+/*    height: 595px;*/
+/*}*/
+/*.auction_column{*/
+
+/*}*/
+/*.auction_text{*/
+
+/*}*/
+
+/*footer{*/
+/*    border-color: #000;*/
+/*    border-width: 1px;*/
+/* } */
+/*    border-style: solid;*/
+/*    !* Блок границы убрать потом *!*/
+/*    box-sizing: border-box;*/
+/*    width: 1100px;*/
+/*    height: 180px;*/
+/*}*/
+/*.footer_links{*/
